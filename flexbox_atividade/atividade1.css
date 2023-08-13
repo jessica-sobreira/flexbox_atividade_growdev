@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    height: 100vh;
+    width: 100vw;
+}
+
+.amarela {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.azul {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.bolinhas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}

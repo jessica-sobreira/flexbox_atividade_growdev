@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+}
+
+body {
+    height: auto;
+    max-width: 100%;
+}
+
+.redondo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.amarelo {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.azul {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    border: 1px solid black;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+.azul-dois {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 0;
+
+}
